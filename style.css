@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  clear: both;
+}
+
+body {
+  background-image:  url(https://i.imgur.com/WJd73eM.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+  margin-top: 50px;
+  /*max-width é o tamanho máximo que minha tela chega e se a tela for menor ele reduz até 
+  o 80%*/
+  max-width: 400px;
+  margin-inline: auto;
+ /* box-shadow: 0 0 5em rgb(119, 33, 231);* para colocar caixa transparente*/
+}
+
+h1 {
+  font-weight: normal;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color:darkolivegreen;
+  /*opacity: 0,9 muda a opacidade da cor. Não vou usar por hr*/
+}
+
+h1 span {
+  color: deeppink;
+  font-weight: bold;
+}
+
+p {
+  color:darkolivegreen;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px; 
+  border-radius: 4px;
+
+ 
+  background-color: white;
+  color:black;
+   
+  font-weight:bold 
+}
+
+input {
+  margin-bottom: 20px;
+  color:darkolivegreen;
+  border: none;
+}
+
+button {
+  border: none;
+  background-color: deeppink;
+  color:lightyellow;
+  transition: filter .2s;
+}
+
+/*significa quando eu colocar o mouse em cima do botão, acontece essas mudanças*/
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+#resposta {
+  margin-top: 10px;
+  height: 100px;
+  color:deeppink;
+  transition: opacity 1s
+}
+
+#resposta div {  
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: normal;
+  color: darkolivegreen;
+}
+
+

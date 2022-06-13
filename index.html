@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style.css">
+  <!--o defer significa leia todo o html, depois, faça isso-->
+  <script src="./index.js"defer></script>
+
+  <title>Qual o seu destino?</title> 
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" 
+  rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="container">
+
+    <img src="https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg" 
+  alt="Imagem de uma bola de cristal"> 
+
+  <h1>
+    Vou revelar seu <span>destino!</span>
+  </h1>
+  
+  <p>
+     Clique em fazer pergunta para que seu destino seja revelado
+  </p>
+
+  
+  <form>
+    <input id="inputPergunta" type="text" placeholder="Digite sua pergunta" />
+   
+    <button id="buttonPerguntar" onclick="fazerPergunta()">
+      Fazer Pergunta</button>
+  </form>
+
+  <h3 id="resposta"></h3>
+  
+  </div>
+  
+</body>
+</html>
